@@ -39,44 +39,45 @@
     <!-- Preloader Start -->
 <header>
     <!--? Header Start -->
-    <div id="head" class="header-area">
-        <div class="main-header header-sticky">
-            <div class="container-fluid">
-                <div class="row align-items-center">
-                    <!-- Logo -->
-                    <div class="col-xl-2 col-lg-2 col-md-1">
-                        <div class="logo">
-                            <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+    <header>
+        <!--? Header Start -->
+        <div id="head" class="header-area">
+            <div class="main-header header-sticky">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <!-- Logo -->
+                        <div class="col-xl-2 col-lg-2 col-md-1">
+                            <div class="logo">
+                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                            </div>
                         </div>
-                    </div>
-                    <div class="col-xl-10 col-lg-10 col-md-10">
-                        <div class="menu-main d-flex align-items-center justify-content-end">
-                            <!-- Main-menu -->
-                            <div class="main-menu f-right d-none d-lg-block">
-                                <nav>
-                                    <ul id="nav">
-                                        <li class="current"><a href="#head">Inicio</a></li>
-                                        <li><a href="#about">Nosotros</a></li>
-                                        <li><a href="#ponentes">Ponentes</a></li>
-                                        <li><a href="#cronograma">Cronograma</a></li>
-
+                        <div class="col-xl-10 col-lg-10 col-md-10">
+                            <div class="menu-main d-flex align-items-center justify-content-end">
+                                <!-- Main-menu -->
+                                <div class="main-menu f-right d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
                                         
-                                    </ul>
-                                </nav>
+                                             <li class="current"><a href="#head">Inicio</a></li>
+                                            <li><a href="#about">Nosotros</a></li>
+                                            <li><a href="#ponentes">Ponentes</a></li>
+                                            <li><a href="#cronograma">Cronograma</a></li>
+    
+                                            
+                                        </ul>
+                                    </nav>
+                                </div>
+                               
                             </div>
-                            <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                <a href="https://docs.google.com/forms/d/1CZYB_dkA3pVvY9bldBQX9VZKShX3q5M8xbQvNC-DVMw/edit" target="_blank" class="btn header-btn">Registrarme</a>
-                            </div>
+                        </div>   
+                        <!-- Mobile Menu -->
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
                         </div>
-                    </div>   
-                    <!-- Mobile Menu -->
-                    <div class="col-12">
-                        <div class="mobile_menu d-block d-lg-none"></div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
     <!-- Header End -->
 </header>
 <main>
@@ -85,7 +86,7 @@
         <div class="slider-active">
             <!-- Single Slider -->
             <div class="single-slider slider-height d-flex align-items-center">
-                <div class="container">
+                <div class="container" style="margin-top: 140px;">
                     <div class="row">
                         <div class="col-xl-8 col-lg-8 col-md-9 col-sm-10">
                             <div class="hero__caption">
@@ -95,6 +96,10 @@
                                 <!-- Hero-btn -->
                                 <div class="slider-btns">
                                     <span data-animation="fadeInLeft" data-delay=".1s">6, 13, 27 de noviembre y 4 de diciembre</span>  
+                                </div>
+                                <div class="slider-btns">
+                                    <a data-animation="fadeInLeft" data-delay="1.0s" href="https://docs.google.com/forms/d/1CZYB_dkA3pVvY9bldBQX9VZKShX3q5M8xbQvNC-DVMw/edit" target="_blank" class="btn hero-btn">Registrarme</a>
+                                
                                 </div>
                             </div>
                         </div>
@@ -195,7 +200,7 @@
                         <img class='card-img-top' src="assets/img/gallery/team2.png"style="margin-left:15px;width: 90%;border-radius: 5px; margin-top:20px"/>
                         <div class='card-body'>
                             <h3 class='card-title'>Dra. Maria Valnice Boldrin (Brasil)</h3>  
-                            <h5 >Departamento de Química Analítica</h5>  
+                           
                             <h5 style="font-size: 16px;">Universidade Estadual Paulista - UNESP</h5>                           
                         </div>
                     </div>                   
@@ -235,7 +240,6 @@
                         <img class='card-img-top' src="assets/img/gallery/team6.png"style="margin-left:15px;width: 90%;border-radius: 5px; margin-top:20px"/>
                         <div class='card-body'>
                             <h3 class='card-title'>Dr. Ignacio Gonzales (México)</h3>  
-                            <h5> Licenciado en Química en Cuautitlán UNAM, Doctor en Química Analítica (Electroquímica) en la Universidad Pierre et Marie Curie, París Francia</h5>  
                             <h5 style="font-size: 16px;">Universidad Autónoma Metropolitana de Iztapalapa</h5>
                         </div>
                     </div>                   
@@ -257,7 +261,6 @@
                         <div class='card-body'>
                             <h3 class='card-title'>Prof. Juan Carlos Morales Gomero (Perú)
                             </h3>  
-                            <h5 >Profesor investigador de la Facultad de Ciencias de la UNI, Phd.C. en Electroquímica por la Universidad Autónoma de Madrid</h5>  
                             <h5 style="font-size: 16px;">Facultad de Ciencias - Universidad Nacional de Ingeniería</h5>
                            
                         </div>
@@ -574,19 +577,8 @@
         <div class="footer-area footer-padding">
             <div class="container">
                 <div class="row d-flex justify-content-between">
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
-                       <div class="single-footer-caption mb-50">
-                         <div class="single-footer-caption mb-30">
-                             <div class="footer-tittle">
-                                 <h4>Sobre Nosotros</h4>
-                                 <div class="footer-pera">
-                                     <p>Organizado por grupo de ngenieros Electroquimicos</p>
-                                </div>
-                             </div>
-                         </div>
-                       </div>
-                    </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-5">
+                   
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-5">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
                                 <h4>Contacto</h4>
@@ -595,13 +587,13 @@
                                         <p>Universidad Catolica de Santa Maria</p>
                                         <p>Urb. San José, San Jose s/n, Yanahuara</p>
                                     </li>
-                                    <li><a href="#">Telefono : +8880 44338899</a></li>
+                                    <li><a href="#">Telefono : +51 - 054 - 382038 </a></li>
                                     <li><a href="#">Correo : electrochemical.webinar@gmail.com</a></li>
                                 </ul>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-5">
+                    <div class="col-xl-6 col-lg-6 col-md-6 col-sm-5">
                         <div class="single-footer-caption mb-50">
                             <div class="footer-tittle">
                                 <h4>Universidades</h4>
@@ -685,9 +677,7 @@
     <script src="./assets/js/popper.min.js"></script>
     <script src="./assets/js/bootstrap.min.js"></script>
     <!-- Jquery Mobile Menu -->
-    
-
-    <script src="./assets/js/one-page-nav-min.js"></script>
+    <script src="./assets/js/jquery.slicknav.min.js"></script>
 
     <!-- Jquery Slick , Owl-Carousel Plugins -->
     <script src="./assets/js/owl.carousel.min.js"></script>
